@@ -18,22 +18,22 @@ class Exchange extends Component {
         this.setState({
           isLoaded: true,
           items: json.answer,
-          image: json.image
+          images: json.image
         })
       })
   }
 
   render () {
-    var { items, isLoaded, image } = this.state
-console.log(image)
+    var { items, isLoaded, images } = this.state
+console.log(this.state)
     if (!isLoaded) {
       return <div>...Loading</div>
     } else {
       return (
         <div>
           <h1 Style='text-align:center'>{items}!</h1>
-          <img src={image} width='100%' height='500' />
-          <button type='button' onclick=''>reload</button>
+          <img src={images} width='100%' height='500' />
+          <button onclick={this.onClickButton}>reload</button>
         </div>
       )
     }
