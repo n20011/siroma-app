@@ -39,7 +39,7 @@ console.log(this.state)
         <div>
           <h1 Style='text-align:center'>{items}!</h1>
           <img src={images} width='100%' height='500' />
-          <button type='button' onclick={this.onCB}>reload</button>
+          <button type='button' onclick={() => window.location.reload()}>reload</button>
         </div>
       )
     }
