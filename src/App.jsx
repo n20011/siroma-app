@@ -23,6 +23,10 @@ class Exchange extends Component {
       })
   }
 
+  onClickButton () {
+    window.location.reload()
+  }
+
   render () {
     var { items, isLoaded, images } = this.state
 console.log(this.state)
@@ -33,7 +37,7 @@ console.log(this.state)
         <div>
           <h1 Style='text-align:center'>{items}!</h1>
           <img src={images} width='100%' height='500' />
-          <button onclick={this.onClickButton}>reload</button>
+          <button type='button' onclick={this.onClickButton}>reload</button>
         </div>
       )
     }
