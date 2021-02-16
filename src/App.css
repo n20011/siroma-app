@@ -1,4 +1,12 @@
-button.button {
-    width: 500px;
-    height: 500px;
+.images {
+    width: 100%;
+    height: 800px;
+}
+
+.button {
+    text-align: center;
+}
+
+html {
+    background: #d6ffa6;
 }
