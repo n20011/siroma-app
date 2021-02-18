@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/siroma-app/static/css/main.582e8cd1.chunk.css",
+    "main.js": "/siroma-app/static/js/main.5881a57b.chunk.js",
+    "main.js.map": "/siroma-app/static/js/main.5881a57b.chunk.js.map",
+    "runtime-main.js": "/siroma-app/static/js/runtime-main.5d55cbdb.js",
+    "runtime-main.js.map": "/siroma-app/static/js/runtime-main.5d55cbdb.js.map",
+    "static/js/2.f16ea182.chunk.js": "/siroma-app/static/js/2.f16ea182.chunk.js",
+    "static/js/2.f16ea182.chunk.js.map": "/siroma-app/static/js/2.f16ea182.chunk.js.map",
+    "static/js/3.37ac1957.chunk.js": "/siroma-app/static/js/3.37ac1957.chunk.js",
+    "static/js/3.37ac1957.chunk.js.map": "/siroma-app/static/js/3.37ac1957.chunk.js.map",
+    "index.html": "/siroma-app/index.html",
+    "static/css/main.582e8cd1.chunk.css.map": "/siroma-app/static/css/main.582e8cd1.chunk.css.map",
+    "static/js/2.f16ea182.chunk.js.LICENSE.txt": "/siroma-app/static/js/2.f16ea182.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5d55cbdb.js",
+    "static/js/2.f16ea182.chunk.js",
+    "static/css/main.582e8cd1.chunk.css",
+    "static/js/main.5881a57b.chunk.js"
+  ]
+}
